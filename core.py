@@ -2013,6 +2013,7 @@ def parse_arguments():
         type=str,
         help="GPU device to use for training (e.g., '0').",
         default="0",
+    )
     train_parser.add_argument(
      "--device",
      type=str,
